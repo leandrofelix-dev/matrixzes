@@ -1,6 +1,9 @@
 body{
-    background: #000;
+    background: var(--color-preto);
 }
 p, h2{
-    color: #fff;
+    color: var(--color-branco);
+}
+button:hover{
+    color: var(--color-preto);
 }

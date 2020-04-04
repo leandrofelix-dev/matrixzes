@@ -1,0 +1,29 @@
+
+/*
+    ESTILIZAÇÃO PADRÃO QUE SERÁ USADA NA APLICAÇÃO
+*/
+
+:root{
+    --color1: rgb(244, 67, 54);
+    --color2: rgb(233, 30, 99);
+    --color3: rgb(156, 39, 176);
+    --color4: rgb(63, 81, 181);
+    --color5: rgb(33, 150, 243);
+    --color6: rgb(3, 169, 244);
+    --color7: rgb(3, 169, 244);
+    --color8: rgb(0, 188, 212);
+    --color9: rgb(0, 150, 136);
+    --color10: rgb(76, 175, 80);
+    --color11: rgb(139, 195, 74);
+    --color12: rgb(255, 235, 59);
+    --color13: rgb(255, 193, 7);
+    --color14: rgb(255, 152, 0);
+    --color15: rgb(255, 87, 34);
+    
+    --color-preto:rgb(0,0,0);
+    --color-branco:rgb(255,255,255);
+    
+    --fonte-moderna: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    
