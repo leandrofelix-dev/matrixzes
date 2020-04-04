@@ -19,7 +19,7 @@
 
 <p>Olá, <b><?php echo($saudacao);?> </b> Que tal calcular?</p>
     <form action="" method="POST" autocomplete="off">
-        <input type="text" placeholder="Insira o valor da daterminante" name="valor">
+        <input type="number" placeholder="INSIRA AQUI O VALOR" name="valor">
     </form>
 <div class="msg">
 

@@ -1,9 +1,12 @@
+
 body{
     background :var(--color-branco);
 }
+
 p, h2{
     color: var(--color-preto);
 }
+
 button:hover{
     color: var(--color-branco);
 }

@@ -14,7 +14,7 @@ body{
 }
 
 table{
-    background: var(--color-branco);
+    background: #0000;
     width: 300px;
     height: 300px;
 }
@@ -24,13 +24,9 @@ td{
     text-align: center;
     width: 100px;
     color: var(--color-branco);
-    font-family: var(--fonte-moderna);
     font-size: 30px;
 }
 
-p, h2{
-    font-family: var(--fonte-moderna);sans-serif;
-}
 h2{
     display: none;
 }
@@ -42,26 +38,29 @@ h2{
 button{
     transition: all .3s;
     cursor: pointer;
-    border: 2px solid #673AB7;
-    color: #673AB7;
+    border: 2px solid var(--color-botao);
+    color: var(--color-botao);
     border-radius: 10px;
-    background: var(--color-branco);
+    background: #0000;
     padding: 10px;
     font-weight: 600;
-    font-family: var(--fonte-moderna);sans-serif;
+    font-family: var(--fonte-moderna);
 }
 button:hover {
-    background: #673AB7;
+    background: var(--color-botao);
     color: var(--color-preto);
 }
 button:focus{
     outline: none;
 }
 input{
-    border: 2px solid #673AB7;
+    border: 2px solid var(--color-botao);
     border-radius: 8px;
     padding: 10px 32px;
     margin-bottom: 20px;
+    
+    font-weight: 500;
+    text-align: center;
 }
 input:focus{
     outline: none;
