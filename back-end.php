@@ -1,5 +1,4 @@
 <?php
-    // date_default_timezone_set('Asia/Dubai');
     date_default_timezone_set('America/Fortaleza');
     $hora_atual = date('H');
     $minuto_atual = date('i');
