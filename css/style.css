@@ -4,9 +4,11 @@
     outline: none;
 }
 
-body{
+body, html{
     margin: 0;
     padding: 0;
+    width: auto;
+    height: 100vh;
 
     display: flex;
     align-items: center;
@@ -33,7 +35,7 @@ h2{
 
 .msg, .all{
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 button{
     transition: all .3s;
@@ -48,10 +50,11 @@ button{
 }
 button:hover {
     background: var(--color-botao);
-    color: var(--color-preto);
+    color: var(--color-botao);
 }
 button:focus{
     outline: none;
+
 }
 input{
     border: 2px solid var(--color-botao);

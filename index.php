@@ -12,8 +12,7 @@
 <?php require('cabecalho.php');?>
 </head>
 <body>
-    <?php require('home.php');?>    
-    <?php require('js/script.html')?>
+<?php require('home.php');?>    
+<?php require('js/script.html')?>
 </body>
 </html>
-
