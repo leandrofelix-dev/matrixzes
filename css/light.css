@@ -16,6 +16,10 @@ input{
     color: var(--color-botao);
 }
 
+#load{
+    background: var(--color-branco);
+}
+
 ::placeholder{
     color: var(--color-preto);
 }

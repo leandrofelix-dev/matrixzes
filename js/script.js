@@ -4,10 +4,21 @@ function verificar_resposta(){
     document.getElementById('valor_do_usuario').value = '';
 
     if(respost == valor_det){
-        alert("elementar");
-        window.location.reload()
+        Swal.fire({
+            title: 'Parabéns! =)',
+            icon: 'success',
+            text: 'Resposta correta!',
+            showConfirmButton: false,
+            timer: 1800
+            });
+        
     }else{
-        alert("sinto muito");
-        window.location.reload()
+        Swal.fire({
+            title: 'Oops... =(',
+            text: 'Resposta errada!',
+            icon: 'error',
+            showConfirmButton: false,
+            timer: 1800
+            });
     }
 }

@@ -74,6 +74,11 @@ input{
     text-align: center;
 }
 
+::placeholder{
+    color: var(--color-botao) !important;
+}
+
 input:focus{
     outline: none;
 }
+
