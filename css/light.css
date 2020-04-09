@@ -10,3 +10,12 @@ p, h2{
 button:hover{
     color: var(--color-branco);
 }
+
+input{
+    background: var(--color-branco);
+    color: var(--color-botao);
+}
+
+::placeholder{
+    color: var(--color-preto);
+}

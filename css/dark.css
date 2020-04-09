@@ -13,7 +13,7 @@ button:hover{
 
 input{
     background: var(--color-preto);
-    color: var(--color-branco);
+    color: var(--color-botao);
 }
 
 ::placeholder{

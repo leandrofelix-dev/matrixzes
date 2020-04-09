@@ -19,21 +19,8 @@
 
 <p>Olá, <b><?php echo($saudacao);?> </b> Que tal calcular?</p>
 
-    <input id="valor_do_usuario" type="number" name="valor_do_usuario" placeholder="INSIRA O VALOR DA DETERMINANTE"> <br>
-    <button onclick="conferir_resultado()">CONFERIR RESULTADO</button>
-
-<div class="msg">
-<div><h2 id="det"><?php echo($det);?></h2></div>
+    <div class="flex">
+    <input id="valor_do_usuario" type="number" placeholder="INSIRA O VALOR DA DETERMINANTE">
+        <button onclick="conferir_resultado()">CONFERIR RESULTADO</button>
+    </div>
 </div>
-</div>
-
-<script type="text/javascript">
-	
-    function conferir_resultado(){
-      var elements = document.getElementsByTagName(name["valor_do_usuario"]);
-      var num = elements;
-       console.log(num.value);
-            
-    }
-
-</script>
