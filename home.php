@@ -21,6 +21,10 @@
 
     <div class="flex">
     <input id="valor_do_usuario" type="number" placeholder="INSIRA O VALOR DA DETERMINANTE">
-        <button onclick="conferir_resultado()">CONFERIR RESULTADO</button>
+        <button onclick="verificar_resposta()">CONFERIR RESULTADO</button>
     </div>
 </div>
+<script>
+    var valor_det = <?php echo($det);?>;
+    console.log(valor_det);
+</script>
