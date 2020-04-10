@@ -1,7 +1,7 @@
 *{
-    font-family: var(--fonte-moderna);
-    text-decoration: none;
-    outline: none;
+    font-family: var(--fonte-moderna) !important;
+    text-decoration: none !important;
+    outline: none !important;
 }
 
 body, html{
@@ -20,6 +20,7 @@ body, html{
 
 #load{
     background: var(--color-preto);
+    z-index: 2;
 }
 
 table{
@@ -46,6 +47,7 @@ h2, b{
 }
 
 button{
+    padding: 0 100px;
     color: var(--color-preto);
     transition: all .3s;
     cursor: pointer;
@@ -60,7 +62,7 @@ button{
 
 button:hover {
     background: var(--color-botao);
-    color: var(--color-botao);
+    color: var(--color-preto);
 }
 
 button:focus{
@@ -103,18 +105,6 @@ input:focus{
     display: none !important;
 }
 
-.swal2-success-circular-line-right{
-    background: red !important;
-}
-
-.swal2-success-fix{
-    background:red !important;
-}
-
-.swal2-success-circular-line-left{
-    background: red !important;
-}
-
 .swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right] {
     transition: all .4s;
     opacity: 0;
@@ -127,4 +117,26 @@ input:focus{
 
 .swal2-success-fix{
     display: none;
+}
+
+.flex{
+    display: grid;
+}
+.swal2-confirm, .swal2-styled{
+    background-color: var(--color-botao) !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.swal2-styled:focus{
+    box-shadow: none !important;
+}
+    
+#tutorial{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+    background: var(--color-botao);
 }

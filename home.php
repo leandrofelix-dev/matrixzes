@@ -31,3 +31,5 @@
     var valor_det = <?php echo($det);?>;
     console.log(valor_det);
 </script>
+
+<button id="tutorial" onclick="mostrar_tutorial()"> <img src="icons/tutorial.svg" alt="" style="width:20px; margin-top: -2px; margin-left: -3px"> </button>
