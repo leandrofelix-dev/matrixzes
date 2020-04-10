@@ -8,7 +8,8 @@
 <script src="js/jquery.min.js"></script>
 <script type="text/javascript">
     window.onload = function(){
-        $("#load").delay(1000).fadeOut("slow");
+        $("#container").delay(1000).fadeOut("slow");
+        $("#load").delay(1500).fadeOut("slow");
     }
 </script>
 
