@@ -4,14 +4,10 @@
     $minuto_atual = date('i');
         
         if($hora_atual >= 6 && $minuto_atual <= 60 && $hora_atual <= 11 && $minuto_atual <= 59){
-            $modo = 'light';
             $saudacao = 'bom dia!';
         }elseif($hora_atual >= 12 && $minuto_atual <= 60 && $hora_atual <= 17 && $minuto_atual <= 59){
-            $modo = 'light';
             $saudacao = 'boa tarde!';
-        }
-        else{
-            $modo = 'dark';
+        }else{
             $saudacao = 'boa noite!';
         }
 

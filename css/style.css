@@ -15,10 +15,11 @@ body, html{
     justify-content: center;
     overflow-y: hidden;
     overflow-x: hidden;
+    background: var(--color-preto);
 }
 
-.flex{
-    display: grid;
+#load{
+    background: var(--color-preto);
 }
 
 table{
@@ -35,8 +36,8 @@ td{
     font-size: 30px;
 }
 
-h2{
-    display: none;
+h2, b{
+    color: var(--color-branco);
 }
 
 .msg, .all{
@@ -45,6 +46,7 @@ h2{
 }
 
 button{
+    color: var(--color-preto);
     transition: all .3s;
     cursor: pointer;
     border: 2px solid var(--color-botao);
@@ -66,16 +68,18 @@ button:focus{
 }
 
 input{
+    background: var(--color-preto);
+    color: var(--color-botao);
     border: 2px solid var(--color-botao);
     border-radius: 8px;
-    padding: 10px 0 10px 20px;
+    padding: 10px;
     margin-bottom: 20px;
     font-weight: 500;
     text-align: center;
 }
 
 ::placeholder{
-    color: var(--color-botao) !important;
+    color: var(--color-branco);
 }
 
 input:focus{
@@ -124,4 +128,3 @@ input:focus{
 .swal2-success-fix{
     display: none;
 }
-

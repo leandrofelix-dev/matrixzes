@@ -2,8 +2,6 @@
 <link rel="stylesheet" href="css/var.css">
 <link rel="stylesheet" href="css/style.css">
 
-<link rel="stylesheet" href="css/<?php echo($modo);?>.css">
-
 <!-- <link rel="stylesheet" href="css/light.css"> -->
 <!-- <link rel="stylesheet" href="css/dark.css"> -->
 
