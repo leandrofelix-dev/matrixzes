@@ -33,3 +33,4 @@
 </script>
 
 <button id="tutorial" onclick="mostrar_tutorial()"> <img src="icons/tuto.svg" alt="" style="width:16px; margin-top: -3px; margin-left: -2px"> </button>
+<button id="refresh" onclick="refresh()"> <img src="icons/refresh.svg" alt="" style="width:16px; margin-top: -3px; margin-left: -2px"> </button>

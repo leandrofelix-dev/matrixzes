@@ -39,3 +39,7 @@ function mostrar_tutorial(){
         timer: '100000'
     });
 }
+
+function refresh() {
+    window.location.reload();
+}
