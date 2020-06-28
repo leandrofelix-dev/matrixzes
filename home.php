@@ -29,7 +29,7 @@
 </div>
 <script>
     var valor_det = <?php echo($det);?>;
-    console.log(valor_det);
+    console.log("Valor da Determinante:"+ valor_det);
 </script>
 
 <button id="tutorial" onclick="mostrar_tutorial()"> <img src="icons/tuto.svg" alt="" style="width:16px; margin-top: -3px; margin-left: -2px"> </button>
